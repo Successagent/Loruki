@@ -1,0 +1,208 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", monospace;
+
+}
+
+.header-container {
+    background-color: #047aed;
+    color: white;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+    font-size: 18px;
+    transition: 100ms ease-in;
+}
+
+li:hover {
+    transform: scale(1.1);
+}
+
+nav a:hover {
+    border-bottom: 2px solid white;
+}
+
+
+ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-header-con {
+    background-color: #047aed;
+    color: white;
+    position: relative;
+}
+
+.main-header h2, p {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 100;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.button {
+    width: 120px;
+    height: 45px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: solid 1px white;
+    color: white;
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+}
+
+.button a:hover {
+    border: none;
+
+}
+
+.button:hover {
+    transform: scale(1.07);
+}
+
+.form-con {
+    background-color: white;
+    color: gray;
+    padding: 15px 25px;
+    z-index: 1000;
+    height: 0px;
+}
+
+.card {
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+.form-con .button {
+    background-color: #047aed;
+    margin-top: 5px;
+}
+
+.form-con h2 {
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.form-control {
+    padding: 20px 0;
+    border: none;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    outline: none;
+}
+
+input[placeholder] {
+    padding-bottom: 8px;
+}
+
+.main-header-con::before, .main-header-con::after {
+    content: "";
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    bottom: -70px;
+    left: 0;
+    right: 0;
+    transform: skewY(-3deg);
+    z-index: 1;
+}
+
+.main-container {
+    margin-top: 160px;
+    color: rgb(43, 41, 41);
+}
+
+.main-text-con {
+    width: 45%;
+    margin: auto;
+    text-align: center;
+}
+
+i {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.main-icon-con p {
+    margin-top: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+.intro-p {
+    padding: 15px 15px 0px 15px;
+}
+
+.cloud-host {
+    background-color: #047aed;
+    color: white;
+}
+
+.cloud-host-text .button {
+    background-color: #002240;
+    border: none;
+}
+
+.cloud-host-text h2 {
+    margin-bottom: 20px;
+}
+
+.language img {
+    width: 200px;
+}
+
+.language-text {
+    text-align: center;
+}
+
+.language-logo {
+    margin-top: 35px;
+    text-align: center;
+}
+
+.language-logo .card {
+    padding: 15px 15px;
+}
+
+.language-logo h4 {
+    margin-bottom: 15px;
+}
+
+.language-logo .card:hover {
+    transform: translateY(-15px);
+
+}
+
+.footer {
+    background-color: #002240;
+    color: white;
+    
+}

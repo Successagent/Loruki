@@ -1,0 +1,309 @@
+@media(min-width:870px) {
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-header-con {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .container {
+        padding: 30px 150px;
+
+    }
+
+    .main-header-con {
+        background-color: #047aed;
+        color: white;
+        height: 350px;
+    }
+
+    .main-header {
+        width: 55%;
+    }
+
+    .form-con {
+        width: 40%;
+        height: 340px;
+        background-color: white;
+        color: gray;
+        margin-top: 170px;
+    }
+
+    .main-text-con {
+        margin-bottom: 50px;
+    }
+
+    .main-icon-con {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .main-intro {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+    }
+
+    .intro-logo {
+        display: flex;
+        align-items: center;
+        width: 50%;
+    }
+
+
+    .intro-text {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .intro-p {
+        width: 80%;
+        align-self: start;
+    }
+
+    .cloud-host {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .cloud-host-text {
+        width: 55%;
+        text-align: center;
+        align-self: center;
+    }
+
+    .cloud-host-logo {
+        width: 45%;
+    }
+
+    .language img {
+        width: 100px;
+    }
+
+    .language-logo {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .footer-text h2, p {
+        margin-bottom: 15px;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        align-items: center;
+    }
+
+}
+
+@media(max-width:600px) {
+    .container {
+        padding: 0;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .header-text {
+        margin: 20px 0;
+    }
+
+    nav {
+        margin-top: 30px;
+        background-color: rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        padding: 10px 0;
+        width: 80%;
+        margin: auto;
+    }
+
+    ul {
+        justify-content: center;
+    }
+
+    .form-con {
+        position: relative;
+        top: 50px;
+        height: 350px;
+    }
+
+    .main-container {
+        margin-top: 80px;
+    }
+
+    .main-text-con {
+        width: 100%;
+    }
+
+    .main-text-con p {
+        font-size: 22px;
+    }
+
+    .fa-3x {
+        font-size: 80px;
+    }
+
+    .intro-p {
+        text-align: start;
+        padding: 20px 15px 10px 15px;
+        margin-top: 25px;
+        height: 20%;
+    }
+
+    .cloud-host {
+        margin-top: 30px;
+    }
+
+    .cloud-host-text {
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .cloud-host-logo {
+        margin-top: 20px;
+    }
+
+    .language img {
+        width: 100px;
+    }
+
+    .language-logo {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-text, .footer-nav {
+        margin-bottom: 20px;
+    }
+
+    .footer-icon {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 870px) and (min-width: 600px) {
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 20px;
+
+    }
+
+    .container {
+        padding: 0;
+        padding: 20px 30px 20px 30px;
+    }
+
+    .main-header {
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+        text-align: center;
+    }
+
+
+    .form-con {
+        width: 60%;
+        margin: auto;
+        position: relative;
+        top: 50px;
+        height: 350px;
+    }
+
+    .main-header-con, .flex {
+        flex-direction: column;
+    }
+
+    .main-container {
+        margin-top: 80px;
+    }
+
+    .main-text-con {
+        font-size: 60px;
+        width: 70%;
+    }
+
+    .main-text-con p {
+        font-size: 25px;
+    }
+
+    .main-icon-con {
+        text-align: center;
+    }
+
+    .fa-3x {
+        font-size: 80px;
+    }
+
+    .intro-text {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .intro-first-p {
+        width: 60%;
+    }
+
+    .intro-text {
+        margin-top: 20px;
+    }
+
+    .intro-p {
+        padding: 25px 15px 10px 15px;
+    }
+
+    .cloud-host {
+        margin-top: 30px;
+    }
+
+    .cloud-host-text {
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .cloud-host-logo {
+        margin-top: 20px;
+    }
+
+    .language-logo {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .language img {
+        width: 100px;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
