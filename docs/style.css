@@ -204,5 +204,18 @@ img {
 .footer {
     background-color: #002240;
     color: white;
-    
+
 }
+
+.features-intro {
+    background-color: #047aed;
+    color: white;
+}
+.features-body {
+    background-color:rgb(243, 225, 225);
+}
+.features-intro-text h1 {
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 20px;
+ }
