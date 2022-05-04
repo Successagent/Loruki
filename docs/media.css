@@ -126,46 +126,68 @@
     .features-intro-text p {
         line-height: 1.8rem;
     }
+
     .features-body {
         display: flex;
         justify-content: space-between;
     }
+
     .features-body img {
         width: 250px;
     }
+
     .features-body-text {
         align-self: center;
         width: 50%;
     }
+
     .features-body-text h2 {
         font-size: 35px;
         font-weight: 500;
         margin-bottom: 15px;
     }
+
     .features-main-footer {
         margin: 20px 0;
     }
+
     .grid {
         display: grid;
         grid-row-gap: 15px;
         grid-column-gap: 25px;
         grid-template-columns: repeat(1fr 1fr 1fr);
         grid-template-rows: repeat(1fr 1fr 1fr);
-        grid-template-areas: 
-        "header header header"
-        "sidebar sidebar main"
-        "footer1 footer2 footer3"
+        grid-template-areas:
+            "header header header"
+            "sidebar sidebar main"
+            "footer1 footer2 footer3"
     }
+
     .area1 {
         grid-area: header;
     }
+
     .area2 {
         grid-area: sidebar;
     }
+
     .area1, .area2, .area3, .area4, .area5, .area6 {
         display: flex;
         align-items: center;
         padding: 15px 10px;
+    }
+
+    .docs-section {
+        display: flex;
+        gap: 30px;
+    }
+
+    .docs-text1 ul {
+        flex-direction: column;
+    }
+
+    .p2 {
+        display: none;
     }
 }
 
@@ -174,6 +196,11 @@
         padding: 0;
         padding: 10px;
         text-align: center;
+    }
+
+    .docs-section {
+        width: 90%;
+        margin: auto;
     }
 
     .header-text {
@@ -232,7 +259,7 @@
     }
 
     .cloud-host-logo {
-        margin-top: 20px;
+        padding-top: 20px;
     }
 
     .language img {
@@ -265,7 +292,102 @@
     .features-intro-text p {
         line-height: 1.8rem;
     }
+
+    .features-intro-logo, .features-body-logo, .cloud-host-logo {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .features-body-text {
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .features-body-text h2 {
+        line-height: 3rem;
+        margin-bottom: 20px;
+    }
+
+    .features-body-text p {
+        margin-bottom: 20px;
+        line-height: 1.8rem;
+    }
+.features-main-footer {
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
 }
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+        grid-template-areas:
+            "header"
+            "main"
+            "main2"
+            "main3"
+            "footer1"
+            "footer"
+    }
+
+    .area1 {
+        grid-area: header;
+    }
+
+    .area2 {
+        grid-area: main;
+    }
+
+    .area3 {
+        grid-area: main2;
+    }
+
+    .area4 {
+        grid-area: main3;
+    }
+
+    .area5 {
+        grid-area: footer1;
+    }
+
+    .area6 {
+        grid-area: footer;
+    }
+
+    .area1, .area2, .area3, .area4, .area5, .area6 {
+        display: flex;
+        align-items: center;
+        padding: 20px 10px;
+    }
+
+    .docs-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .docs-text1 {
+        margin-top: 15px;
+    }
+
+    .docs-text1, .docs-text2 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .docs-text1 p {
+        text-align: start;
+    }
+
+    .p1 {
+        display: none;
+    }
+
+}
+
+/* Tablets */
 
 @media (max-width: 870px) and (min-width: 600px) {
     .header-container {
@@ -368,12 +490,70 @@
         align-items: center;
         flex-wrap: wrap;
     }
+
     .features-intro {
         text-align: center;
     }
+
     .features-intro-logo {
         width: 50%;
         margin: auto;
         margin-top: 30px;
     }
+
+    .features-intro-logo {
+        margin-bottom: 20px;
+    }
+
+    .features-body-text {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .features-body-text h2, p {
+        margin-bottom: 20px;
+        line-height: 1.8rem;
+    }
+
+    .features-body-logo {
+        width: 50%;
+        margin: auto;
+    }
+
+    .grid {
+        display: grid;
+        grid-row-gap: 15px;
+        grid-column-gap: 25px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin: 20px 0;
+    }
+
+    .area1, .area2, .area3, .area4, .area5, .area6 {
+        display: flex;
+        align-items: center;
+    }
+
+    .docs-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .docs-text1, .docs-text2 {
+        margin-bottom: 25px;
+        width: 90%;
+        margin: auto;
+    }
+
+    .docs-text1 {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .p2 {
+        display: none;
+    }
+
 }
