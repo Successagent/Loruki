@@ -35,6 +35,9 @@ ul a {
     text-decoration: none;
     color: white;
 }
+.main-header {
+    animation: slideFromLeft 1s ease-in;
+}
 
 .main-header-con {
     background-color: #047aed;
@@ -86,6 +89,7 @@ p {
     padding: 15px 25px;
     z-index: 1000;
     height: 0px;
+    animation: slideFromRight 1s ease-in;
 }
 
 .card {
@@ -134,6 +138,7 @@ input[placeholder] {
 }
 
 .main-container {
+    animation: slideFromBottom 1s ease-in;
     margin-top: 160px;
     color: rgb(43, 41, 41);
 }
@@ -276,4 +281,42 @@ img {
 }
 .firstc {
     background-color: rgb(19, 169, 19);
+}
+
+
+@keyframes slideFromBottom {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes slideFromLeft {
+    0% {
+        transform: translateX(-100%);
+
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+@keyframes slideFromRight {
+    0% {
+        transform: translateX(100%);
+
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+@keyframes slideFromTop {
+    0% {
+        transform: translateY(-100%);
+
+    }
+    100% {
+        transform: translateY(0%);
+    }
 }
